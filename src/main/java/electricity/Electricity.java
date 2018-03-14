@@ -9,7 +9,7 @@ public class Electricity {
 
         switcher.addElectricityListener(lamp);
         switcher.addElectricityListener(radio);
-        switcher.addElectricityListener(()-> System.out.println("Fire"));
+        switcher.addElectricityListener(() -> System.out.println("Fire"));
 
         switcher.switchOn();
     }
